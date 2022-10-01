@@ -87,11 +87,6 @@
 	};
 };
 
-&sde_dp {
-	/delete-property/ qcom,dp-usbpd-detection;
-	status = "disabled";
-};
-
 &mdss_dsi0 {
 	vdda-1p2-supply = <&L18A>;
 };
